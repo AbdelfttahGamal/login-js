@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+    <section>
+        <div class="text-center m-auto mt-5">
+            <div class="container">
+                <div class="img">
+                    <img src="images/testimonial-2.jpg" class="border border-dark border-5 rounded-circle">
+                </div>
+                <input type="text" name="name" placeholder="User Name" id="nameInput" class="form-control w-50 m-auto mt-4">
+                <input type="email" name="email" placeholder="User Email" id="emailInput" class="form-control w-50 m-auto mt-4">
+                <input type="password" name="password" placeholder="Password" id="passInput" class="form-control w-50 m-auto mt-4">
+                <div class="buttons">
+                    <button onclick="loginUser(event)" class="btn btn-outline-danger mt-4 check_Item" >LogIn </button>
+                    <p id="result" class="border rounded w-25 m-auto mt-3 bg-success"><b> </b></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="javascript/bootstrap.bundle.min.js"></script>
+    <script src="javascript/java-login.js"></script>
+</body>
+</html>
